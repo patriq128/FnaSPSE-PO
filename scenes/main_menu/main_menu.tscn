@@ -22,6 +22,7 @@
 [ext_resource type="Texture2D" uid="uid://nnnb0hu5k4xo" path="res://scenes/main_menu/game_title.png" id="19_fde4t"]
 [ext_resource type="AudioStream" uid="uid://4q3qju745mph" path="res://scenes/main_menu/static2.wav" id="19_xac7c"]
 [ext_resource type="Texture2D" uid="uid://cye7cisyh4cxi" path="res://scenes/main_menu/star.png" id="20_s424j"]
+[ext_resource type="Texture2D" uid="uid://cc5awxuiubaql" path="res://scenes/main_menu/credit.png" id="21_lmo0x"]
 [ext_resource type="Script" uid="uid://ddiy5ygbvrxt3" path="res://scenes/main_menu/buttons/button_hovered.gd" id="22_duxfo"]
 [ext_resource type="Texture2D" uid="uid://bh7s1noey5lbb" path="res://scenes/main_menu/buttons/new-game.png" id="23_0888h"]
 [ext_resource type="Texture2D" uid="uid://dsgg07jcorw8e" path="res://scenes/main_menu/night.png" id="24_g8sw0"]
@@ -55,7 +56,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("5_kvv6k")
 }],
-"loop": 0,
+"loop": false,
 "name": &"default",
 "speed": 0.0
 }]
@@ -84,7 +85,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("15_3k5n0")
 }],
-"loop": 0,
+"loop": false,
 "name": &"default",
 "speed": 15.0
 }]
@@ -129,6 +130,11 @@ flicker = 0.3
 [node name="Variant Timer" type="Timer" parent="Background/Freddy Twitching" unique_id=249000634]
 wait_time = 0.08
 autostart = true
+
+[node name="Sprite2D" type="Sprite2D" parent="Background" unique_id=197078651]
+position = Vector2(406, 174)
+scale = Vector2(0.453125, 0.453125)
+texture = ExtResource("40_3vb4h")
 
 [node name="Statics" parent="Background" unique_id=1232822903 instance=ExtResource("8_bva8j")]
 modulate = Color(1, 1, 1, 0.6039216)
@@ -182,6 +188,10 @@ texture = ExtResource("20_s424j")
 texture_filter = 1
 position = Vector2(318, 321)
 texture = ExtResource("20_s424j")
+
+[node name="Credit" type="Sprite2D" parent="Text" unique_id=2014086294]
+position = Vector2(1156, 698)
+texture = ExtResource("21_lmo0x")
 
 [node name="New Game" type="Area2D" parent="Text" unique_id=1437570674]
 position = Vector2(248, 415)
@@ -280,12 +290,12 @@ stream = ExtResource("25_boqas")
 [node name="Label" type="Label" parent="Text" unique_id=1285715542]
 offset_left = 8.0
 offset_top = 674.0
-offset_right = 226.0
+offset_right = 260.0
 offset_bottom = 715.0
 theme_override_fonts/font = SubResource("FontVariation_2qdcn")
 theme_override_font_sizes/font_size = 18
 text = "Made by ZiDi
-Made with <3"
+Vyrobené zo srdiečka <3"
 
 [node name="Main Music" type="AudioStreamPlayer" parent="." unique_id=26976449]
 stream = ExtResource("18_bq5lc")
@@ -295,11 +305,6 @@ autoplay = true
 stream = ExtResource("19_xac7c")
 autoplay = true
 bus = &"Sfx"
-
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=197078651]
-position = Vector2(479, 174)
-scale = Vector2(0.58480024, 0.58480024)
-texture = ExtResource("40_3vb4h")
 
 [connection signal="timeout" from="Background/Freddy Twitching/Variant Timer" to="Background/Freddy Twitching" method="_on_variant_timer_timeout"]
 [connection signal="hovered" from="Text/New Game" to="Text/Select" method="_on_button_hovered"]
