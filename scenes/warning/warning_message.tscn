@@ -36,7 +36,7 @@ texture = ExtResource("2_bwsg4")
 position = Vector2(638, 354)
 shape = SubResource("RectangleShape2D_ucufk")
 
-[node name="Label" type="Label" parent="." unique_id=301349683]
+[node name="Label" type="Label" parent="Warning" unique_id=301349683]
 offset_left = 846.0
 offset_top = 658.0
 offset_right = 1210.0

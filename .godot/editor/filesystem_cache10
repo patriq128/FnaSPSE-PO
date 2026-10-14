@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1791967513
+::res://::1791984850
 default_bus_layout.tres::AudioBusLayout::3479624665147159993::1791955623::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1791955623::0::1::::<><><>0<>0<><>::
 gasparik.png::CompressedTexture2D::8806701823747990922::1791963969::1791966915::1::::<><><>0<>0<>3b36644acab398dd452b54a404e4c428<>res://.godot/imported/gasparik.png-89a1793112dc74f473fa058e8758b753.ctex::
@@ -318,12 +318,13 @@ sixth_night.png::CompressedTexture2D::6275378521589102859::1791902912::179195578
 ::res://scenes/main_menu/buttons/continue/::1791955835
 continue.gd::GDScript::8196273710952619787::1791902777::0::1::::<>Hover<><>0<>0<><>::
 continue.png::CompressedTexture2D::3004184384676097025::1791902912::1791955835::1::::<><><>0<>0<>154ed719c473b50c3dc6a6156af6235d<>res://.godot/imported/continue.png-da9ad20bf1fbe87476a5961bab13d62b.ctex::
-::res://scenes/main_menu/freddy_twitching/::1791968040
+::res://scenes/main_menu/freddy_twitching/::1791970821
 1(1).png::CompressedTexture2D::8440283852385255692::1791955623::1791955784::1::::<><><>0<>0<>a2e102fa4c0181d4610b05dbe9df5831<>res://.godot/imported/1(1).png-fc7c27d52380e95f5def88c7981a25c4.ctex::
 1.png::CompressedTexture2D::6041290399696787517::1791963969::1791966915::1::::<><><>0<>0<>671c7a798d1166a342fa7d7385e12dfb<>res://.godot/imported/1.png-dd76f50f37af1fbe85a772fcdb86fc9c.ctex::
 2(1).png::CompressedTexture2D::4845875008011948724::1791902912::1791968048::1::::<><><>0<>0<>50ff1f7768e001c5b8be812652b1dee3<>res://.godot/imported/2(1).png-7b9aedaf9f751059745b71772c4a737d.ctex::
 2.png::CompressedTexture2D::5659707857835719577::1791968010::1791968048::1::::<><><>0<>0<>5938bc0c39ba726f8a019f5a5152fa17<>res://.godot/imported/2.png-33796bafc993aef1dfb489ae6da85bfa.ctex::
-3.png::CompressedTexture2D::7274230014590730352::1791902913::1791955783::1::::<><><>0<>0<>02f347eef8c6a844ba7d4f00884fe27d<>res://.godot/imported/3.png-a6e52caaab39e19ea4aaf333b369614d.ctex::
+3(1).png::CompressedTexture2D::6015888936769420104::1791902913::1791970821::1::::<><><>0<>0<>3c30828e757c5b205931854c28100de2<>res://.godot/imported/3(1).png-e3530d2ab824ccb623cb3933f8d2c825.ctex::
+3.png::CompressedTexture2D::7274230014590730352::1791970755::1791970821::1::::<><><>0<>0<>02f347eef8c6a844ba7d4f00884fe27d<>res://.godot/imported/3.png-a6e52caaab39e19ea4aaf333b369614d.ctex::
 4(1).png::CompressedTexture2D::7746946286734817483::1791902913::1791963730::1::::<><><>0<>0<>6a74191c26fb1fb78ab2f0b05d45e788<>res://.godot/imported/4(1).png-62a3fa38b38e4386d9547ad30cb99aad.ctex::
 4.png::CompressedTexture2D::3378611103347808818::1791963667::1791963730::1::::<><><>0<>0<>441526a47ae0b59d33d38c34818bf369<>res://.godot/imported/4.png-1d1cda78361fd755b7a56389edc07d7d.ctex::
 freddy_twitching.gd::GDScript::2681669295584774640::1791902777::0::1::::<>AnimatedSprite2D<><>0<>0<><>::
@@ -342,8 +343,9 @@ white_line.png::CompressedTexture2D::764609337973657915::1791902913::1791955781:
 5.png::CompressedTexture2D::1563136210701159475::1791902913::1791955782::1::::<><><>0<>0<>95165ad5076b495d55ac0e0d7d39dafe<>res://.godot/imported/5.png-d7442342683ab7abb9307bc287d74cd1.ctex::
 6.png::CompressedTexture2D::4141405612155582252::1791902913::1791955781::1::::<><><>0<>0<>af9050ad27cd584bf27b1b48d1f11c32<>res://.godot/imported/6.png-e80a8cc886c4e485a13208999844d7fc.ctex::
 7.png::CompressedTexture2D::2865743948765664252::1791902913::1791955781::1::::<><><>0<>0<>73bca09525ca078d797a439ad3ee5016<>res://.godot/imported/7.png-35a9c011a0d9742f5b4fcfec89b30ea4.ctex::
-::res://scenes/new_game/::1791955781
-news_paper.png::CompressedTexture2D::6332502098974433285::1791955623::1791955781::1::::<><><>0<>0<>27173b091f3554eaa60ed8bd52ff4e5d<>res://.godot/imported/news_paper.png-b13ab4a8830d3c60231bc53eb63357c1.ctex::
+::res://scenes/new_game/::1791980255
+news_paper(1).png::CompressedTexture2D::5767842380423866926::1791955623::1791980255::1::::<><><>0<>0<>cf55c6db4bf298e4987c09a1cbfd30e2<>res://.godot/imported/news_paper(1).png-4a7f54e9f04db41216f3e46dae29fb49.ctex::
+news_paper.png::CompressedTexture2D::6332502098974433285::1791980191::1791980255::1::::<><><>0<>0<>27173b091f3554eaa60ed8bd52ff4e5d<>res://.godot/imported/news_paper.png-b13ab4a8830d3c60231bc53eb63357c1.ctex::
 new_game_screen.gd::GDScript::3119437303561839771::1791955623::0::1::::<>Fade<><>0<>0<><>::
 new_game_screen.tscn::PackedScene::3147241461300738436::1791955623::0::1::::<><><>0<>0<><>::uid://cwhrnclw2cqlp::::res://scenes/new_game/news_paper.png<>uid://bkpcxagounk5p::::res://scenes/new_game/new_game_screen.gd<>uid://mquhdry6n56j::::res://scenes/starting_night/starting_night.tscn
 ::res://scenes/night/::1791955625
@@ -599,10 +601,10 @@ night_6.png::CompressedTexture2D::5673772974751987656::1791955625::1791955784::1
 night_7.png::CompressedTexture2D::4666337852962333647::1791955625::1791955784::1::::<><><>0<>0<>ba78f07f0d18fd1108c30b0777555641<>res://.godot/imported/night_7.png-c30e7f8137874e3098083e4a0c6f3b3a.ctex::
 starting_night.gd::GDScript::7356594692329937175::1791955625::0::1::::<>Node2D<><>0<>0<><>::
 starting_night.tscn::PackedScene::876523193098157367::1791955625::0::1::::<><><>0<>0<><>::uid://dc2ubl8fcmcbn::::res://scenes/starting_night/starting_night.gd<>uid://cdtpq4vqwca0c::::res://common/effects/white_bars/white_bars.tscn<>uid://bydyo24dooytd::::res://scenes/starting_night/night_1.png<>uid://7lh2gi2ri74k::::res://scenes/starting_night/night_2.png<>uid://ddxm5j8f4kgn4::::res://scenes/starting_night/night_3.png<>uid://do8g61ew8e4nv::::res://scenes/starting_night/night_4.png<>uid://dvfqwsl3lh65l::::res://scenes/starting_night/night_5.png<>uid://cm3ohhakqmae7::::res://scenes/starting_night/night_6.png<>uid://b7qn5xq33pfln::::res://scenes/starting_night/night_7.png
-::res://scenes/warning/::1791967740
+::res://scenes/warning/::1791970854
 warning.png::CompressedTexture2D::5973190893753302722::1791955625::1791955784::1::::<><><>0<>0<>0cae995b572e8ac6c21bfad19f6c5624<>res://.godot/imported/warning.png-1565093d6d088a5c6e2f4b7631c1e49c.ctex::
 warning_message.gd::GDScript::183992576745676543::1791955625::0::1::::<>Node2D<><>0<>0<><>::
-warning_message.tscn::PackedScene::4706511574749236988::1791967740::0::1::::<><><>0<>0<><>::uid://cip5ntgdfmu3h::::res://common/libs/fade.gd<>uid://crdpt1ao4srgs::::res://scenes/warning/warning.png<>uid://vpms7e5yikcn::::res://scenes/main_menu/main_menu.tscn
+warning_message.tscn::PackedScene::4706511574749236988::1791970854::0::1::::<><><>0<>0<><>::uid://cip5ntgdfmu3h::::res://common/libs/fade.gd<>uid://crdpt1ao4srgs::::res://scenes/warning/warning.png<>uid://vpms7e5yikcn::::res://scenes/main_menu/main_menu.tscn
 ::res://shaders/::1791955625
 perspective.gdshader::Shader::6966769310240193136::1791955625::0::1::::<><><>0<>0<><>::
 ::res://ui/::1791955625
