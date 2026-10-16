@@ -1,2 +1,2 @@
 res://scenes/loading/loading_screen.tscn
-res://common/effects/hallucination/hallucination.tscn
+res://scenes/loading/loading_screen.gd

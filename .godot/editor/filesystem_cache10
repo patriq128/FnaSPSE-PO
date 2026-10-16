@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1792062316
+::res://::1792127718
 default_bus_layout.tres::AudioBusLayout::3479624665147159993::1791955623::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1791955623::0::1::::<><><>0<>0<><>::
 icon.ico::OtherFile::-1::1791955623::0::1::::<><><>0<>0<><>::
@@ -190,10 +190,10 @@ bonnie_eyes.png::CompressedTexture2D::3930768768816964612::1792062947::179206321
 ::res://common/data/::1791955623
 player_data.gd::GDScript::8958306302002114881::1791955623::0::1::::<>Node<><>0<>0<><>::
 ::res://common/effects/::1791955623
-::res://common/effects/hallucination/::1792063159
+::res://common/effects/hallucination/::1792063812
 freddy.png::CompressedTexture2D::5085409389355914140::1792063795::1792063805::1::::<><><>0<>0<>80b0a18ac789edef19e6ab15dddc957c<>res://.godot/imported/freddy.png-f74ce97270f6015b581c5801174b7f11.ctex::
 hallucination.gd::GDScript::6363835198715180213::1791955623::0::1::::<>Node2D<><>0<>0<><>::
-hallucination.tscn::PackedScene::7072712090297800670::1792063159::0::1::::<><><>0<>0<><>::uid://cwwxo271g3qdp::::res://common/effects/hallucination/hallucination.gd<>uid://chng65p7j4frh::::res://animatronics/robotvoice.wav<>uid://bwadgms2x61n1::::res://common/bonnie_creepy/bonnie_eyes.png<>uid://cepn7j2ijj1me::::res://common/effects/hallucination/freddy.png<>uid://dqet52fd1bdwi::::res://common/effects/hallucination/it_s_me.png<>uid://co0rlpayijknv::::res://common/effects/hallucination/it_s_me_2.png
+hallucination.tscn::PackedScene::7072712090297800670::1792063812::0::1::::<><><>0<>0<><>::uid://cwwxo271g3qdp::::res://common/effects/hallucination/hallucination.gd<>uid://chng65p7j4frh::::res://animatronics/robotvoice.wav<>uid://bwadgms2x61n1::::res://common/bonnie_creepy/bonnie_eyes.png<>uid://cepn7j2ijj1me::::res://common/effects/hallucination/freddy.png<>uid://dqet52fd1bdwi::::res://common/effects/hallucination/it_s_me.png<>uid://co0rlpayijknv::::res://common/effects/hallucination/it_s_me_2.png
 it_s_me.png::CompressedTexture2D::8291749683009340616::1791955623::1791955848::1::::<><><>0<>0<>997b408b7a27f06b312262efbc274c02<>res://.godot/imported/it_s_me.png-b155584977a51b2a24dda4dfbbf24e5d.ctex::
 it_s_me_2.png::CompressedTexture2D::5808147243731892415::1791955623::1791955848::1::::<><><>0<>0<>20eb46b7f9dc5d813e8a6319152f2ba9<>res://.godot/imported/it_s_me_2.png-2aaa4138d58fbfdf3efc8e3906fc9404.ctex::
 ::res://common/effects/statics/::1791955623
@@ -649,4 +649,4 @@ usage_bar.gd::GDScript::3895321195328322557::1791955625::0::1::::PowerUsage<>Nod
 3.png::CompressedTexture2D::129437003981533196::1791955625::1791955785::1::::<><><>0<>0<>dcc6f49b96b1a4fd57c37854b674b788<>res://.godot/imported/3.png-e3ea1bb97f1464191d3ad6a9fe376cf2.ctex::
 4.png::CompressedTexture2D::3515825712070187972::1791955625::1791955785::1::::<><><>0<>0<>5deebfad16d2f813ebfb674c5bd79560<>res://.godot/imported/4.png-2233043979c38d1afa109d3f882b0d15.ctex::
 5.png::CompressedTexture2D::5622362561227175602::1791955625::1791955785::1::::<><><>0<>0<>818ebfd586f72eb78102b49c29b6cf62<>res://.godot/imported/5.png-8838214ddc3b878573c34a7db1ff5312.ctex::
-::res://xcf_images/::1792063772
+::res://xcf_images/::1792127623
