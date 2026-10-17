@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ba0dt1m4tmtv4" path="res://scenes/night/phone_guy/phone_guy.gd" id="1_feyag"]
 [ext_resource type="Texture2D" uid="uid://dxvidlb0168j1" path="res://scenes/night/phone_guy/mute_phone_guy.png" id="2_k2f2v"]
-[ext_resource type="AudioStream" uid="uid://b1dbx7v85ukep" path="res://scenes/night/phone_guy/voiceover1c.wav" id="3_2xyft"]
+[ext_resource type="AudioStream" uid="uid://c00df0oq7jjk2" path="res://scenes/night/phone_guy/call_1.wav" id="3_feyag"]
 [ext_resource type="AudioStream" uid="uid://d0qvinoxxirfm" path="res://scenes/night/phone_guy/voiceover2a.wav" id="4_450ys"]
 [ext_resource type="AudioStream" uid="uid://db157lm0trwj0" path="res://scenes/night/phone_guy/voiceover3.wav" id="5_iuncc"]
 [ext_resource type="AudioStream" uid="uid://dbhwc0gurexrp" path="res://scenes/night/phone_guy/voiceover4.wav" id="6_je0ws"]
@@ -29,7 +29,7 @@ texture = ExtResource("2_k2f2v")
 shape = SubResource("RectangleShape2D_ucufk")
 
 [node name="Voice Night 1" type="AudioStreamPlayer" parent="." unique_id=189174234]
-stream = ExtResource("3_2xyft")
+stream = ExtResource("3_feyag")
 bus = &"Phone Guy"
 
 [node name="Voice Night 2" type="AudioStreamPlayer" parent="." unique_id=1625960430]
