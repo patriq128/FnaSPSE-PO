@@ -1,2 +1,2 @@
 <h1 align="center">FnaSPSE-PO</h1>
-<img src="/scenes/main_menu/game_title.png">
+<img src="IMG_20261019_132238_889.jpg">
