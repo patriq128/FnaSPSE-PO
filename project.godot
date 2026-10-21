@@ -17,7 +17,7 @@ general/size/mode=3
 config/name="Five Nights at Freddy's"
 config/version="1.132"
 run/main_scene="uid://b8b4s8b40cp7a"
-config/features=PackedStringArray("4.7", "Forward Plus")
+config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="uid://c2x3nb8nl557m"
 config/windows_native_icon="res://icon.ico"
 
